@@ -1,0 +1,14 @@
+body {
+      margin: 0;
+      background-color: #f86c6c;
+      color: aliceblue;
+    }
+    header {
+      background-color: #fff4f4;
+      color: white;
+      padding: 15px 0;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
