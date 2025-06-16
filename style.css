@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(28, 17, 17);
+    color: white;
+    text-size-adjust: 10px;
+}
+    header nav {
+      background-color: #333;
+      padding: 20px;
+      text-align: center;
+    }
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    header nav a:hover {
+      text-decoration: underline;
+      color: #1f82f3e9;
+    }

@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="audioVdo.html">About Us</a>
+      <a href="input.html">Service</a>
+      <a href="table.html">Contact</a>
+      <a href="https://instagram.com" target="_blank">Insta</a>
+    </nav>
+  </header>
+   <table border="0" align="center">
+    <!-- Headings og the table -->
+    <thead>
+        <!-- Headingsof the Each Row -->
+        <tr> 
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Add</th>
+            <th>Mob No</th>
+        </tr>
+        <!-- Data in the table -->
+        <tbody>
+            <!-- used to store data in table -->
+            <tr>
+                <td>01</td>
+                <td>Rushi</td>
+                <td>Jalgaon</td>
+                <td>9860xxxxx</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Mayur</td>
+                <td>Shirdi</td>
+                <td>9800xxxxx</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Aditya</td>
+                <td>Malkapur</td>
+                <td>9840xxxxx</td>
+            </tr>
+        </tbody>
+        <!-- It will used to show headings at the end of table -->
+        <tfoot>
+            <tr> 
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Add</th>
+            <th>Mob No</th>
+        </tr>
+        </tfoot>
+    </thead>
+    <!-- Row span -->
+    <table border="1" align="center">
+        <thead>
+            <tr>
+                <td rowspan="4">WebDev</td>
+                <td>HTML5 /CSS3</td>
+            </tr>
+            <tr>
+                <td>React</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+            </tr>
+            <tr>
+                <td>Boostrap</td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">OOP's Language</td>
+                <td>CPP</td>
+            </tr>
+                <tr>
+                    <td>Java</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                </tr>
+        </thead>
+    </table>
+
+    <!-- Colunm Span -->
+     <table border="1" align="center">
+        <thead> 
+            <th colspan="4">WebDev</th>
+            <th colspan="4">OOP's Language</th>
+                <tr >
+                    <td>HTML5/CSS3</td>
+                    <td>JavaScript</td>   
+                    <td>React</td>
+                    <td >Boostrap</td>              
+                    <td>Java</td>
+                    <td>Python</td>
+                    <td>Ruby</td>
+                    <td >C++</td>                      
+               </tr>
+        </thead>
+    </table>
+   </table> 
+</body>
+</html>
