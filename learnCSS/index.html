@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Types</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2{
+            color: yellowgreen;
+            font-size: 30px;
+            background-color: black;
+        }
+/* This below tag will prefer first */
+        h2{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+<!-- 3Types of CSS
+     1-importance-inline internal, external
+     2-specificity-Id,class,elements(tags)
+     3-order-latest mentioned property will follow
+-->
+    <!-- Inline CSS [it has 1st priority for apply styles]--> 
+     <h1 style="color: black; background-color: pink;">Hello I'm Rushii!!</h1>
+     <h1 style="color:blueviolet ;">I'm FullStack Java Developer</h1>
+
+    <!-- Internal CSS [then 2nd priority]-->
+    <h2 style="color: black;background-color: yellow;">BE computer Engg</h2>
+    <h2>SSBT College of Engineering  and Technology, Jalgaon</h2>
+
+    <!-- External CSS[3rd priority] -->
+     <h3 style="color: rgb(7, 98, 235);">Hello Aditya</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis culpa doloribus quasi vero dolorem molestiae aliquam, aperiam beatae praesentium quae at rerum, placeat id tempora voluptatibus illum, accusantium veritatis nulla? Neque maxime, tempora molestias provident totam similique odit officia doloribus eius perspiciatis quia numquam consequatur facilis necessitatibus minus in!</p>
+
+</body>
+</html>
