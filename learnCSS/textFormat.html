@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextFormats</title>
+    <style>
+        .uppercase{
+            text-transform: uppercase;
+            color: black;
+            text-decoration: underline;
+        }
+        .lowercase{
+            text-transform: lowercase;
+            color: blueviolet;
+            text-decoration: overline;
+        }
+        .capitalize{
+            text-transform: capitalize;
+            color: yellowgreen;
+            text-decoration: line-through;
+        }
+        .center{
+            text-align: center;
+        }
+        .right{
+            text-align: right;
+        }
+        .left{
+            text-align: left;
+        }
+        .format{
+            text-decoration: underline line-through overline
+        }
+        .indent{
+            text-indent: 150px;
+            font-size: larger;
+        }
+        .line-height{
+            line-height: 30px;
+        }
+        .lSpacing{
+            letter-spacing: 40px;
+        }
+        .wSpacing{
+            word-spacing: 30px;
+        }
+        .shadow{
+            font-size: 80px;
+            color: black;
+            text-align: center;
+            text-shadow: 5px 6px 12px yellowgreen;
+
+        }
+        .shadow1{
+            font-size: 80px;
+            color: brown;
+            text-align: center;
+            text-shadow: 5px 6px 8px aqua;
+
+        }
+    </style>
+</head>
+<body>
+     <h1 class="shadow">Rushii &#128525;</h1>
+     <h1 class="shadow1">Aarav</h1><hr>
+
+    <h1 class="format capitalize center">Rushi</h1><br><hr>
+    
+    <h1 class="left"><mark>Left Align</mark></h1>
+    <h1 class="uppercase"> Hey I'm Rushii !</h1>
+    <h1 class="center"><mark>Center Align</mark></h1>
+    <h1 class="capitalize center" > hey  I'm rushii !</h1>
+    <h1 class="right"><mark>Right Align</mark></h1>
+    <h1 class="lowercase right"> Hey  I'm Rushii !</h1>
+    <hr>
+    <!--initial space before paragraph starting  -->
+    <p class="indent line-height">Java is a high-level, object-oriented programming language used to build web apps, mobile applications, and enterprise software systems. It is known for its Write Once, Run Anywhere capability, which means code written in Java can run on any device that supports the Java Virtual Machine (JVM).Java syntax and structure is similar to C-based languages like C++ and C#. Its robustness, platform-independent compatibility, and strong memory management have made it a go-to language for developers worldwide.</p>
+    <hr>
+    <!-- Spacing between words and letters -->
+    <h2 class="lSpacing">Fresher</h2>
+    <h2 class="wSpacing">I'm a Java FullStack Developer </h2>
+</body>
+</html>
