@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relattive|Absolute Example</title>
+    <style>
+        body{
+            background-color: beige;
+        }
+        h1{
+            text-align: center;
+
+        }
+        .hall{
+            position: relative;
+            width: 500px;
+            height: 500px;
+            background-color: yellowgreen;
+            left: 600px;
+            border: 3px solid gray ;
+            top: 50px;
+        }
+        #tv{
+            position: absolute;
+            height: 50px;
+            width: 180px;
+            background-color: black;
+            left: 150px;
+            color: white;
+            text-align: center;
+            border: 2px solid yellowgreen ;
+            line-height: 50px;
+            top: 3px;
+        }
+        #sofa{
+            position: absolute;
+            height: 80px;
+            width: 250px;
+            background-color: chocolate;
+            left: 120px;
+            top: 160px;
+            text-align: center;
+            line-height: 80px;
+            color: white;
+            border: 2px solid blueviolet ;
+
+        }
+        #fridge{
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            color: black;
+            text-align: center;
+            line-height: 150px;
+            background-color: bisque;
+            height: 160px;
+            width: 90px;
+            border: 2px solid gray ;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Relative|Absolute Real Time Example</h1>
+    <div class="hall">
+         <div id="tv">Samsung</div>
+         <div id="sofa">Sofa</div>
+         <div id="fridge">LG</div>
+    </div>
+</body>
+</html>
